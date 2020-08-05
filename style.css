@@ -1,0 +1,28 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+  color: white;
+}
+.underline {
+  width: 20%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: purple;
+}
+#main {
+  background: linear-gradient(
+      to left,
+      rgb(43, 183, 218, 0.7),
+      rgb(49, 211, 92, 0.7)
+    ),
+    url("./assets/main-bg.svg") center/cover no-repeat fixed;
+}
+.text-purple {
+  color: purple;
+}
+a i {
+  font-size: 15px;
+}
