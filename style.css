@@ -2,16 +2,7 @@
   font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
-a {
-  text-decoration: none !important;
-  color: white;
-}
-.underline {
-  width: 20%;
-  height: 3px;
-  margin: 0 auto;
-  background-color: purple;
-}
+
 #main {
   background: linear-gradient(
       to left,
@@ -20,8 +11,19 @@ a {
     ),
     url("./assets/main-bg.svg") center/cover no-repeat fixed;
 }
+
+.underline {
+  width: 20%;
+  height: 3px;
+  margin: 0 auto;
+  background-color: purple;
+}
 .text-purple {
   color: purple;
+}
+a {
+  text-decoration: none !important;
+  color: white;
 }
 a i {
   font-size: 15px;
